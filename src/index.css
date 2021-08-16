@@ -20,6 +20,7 @@ code {
   height: 20px;
   border-radius: 50%;
   background-color: #fff;
+  cursor: pointer;
 }
 .point.selected{
   background-color: #f88543;
@@ -70,12 +71,12 @@ button{
 .year{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 40px;
 }
 .span-block{
   width:100%;
   position: absolute;
-  bottom: -150px;
+  bottom: -100px;
   display: flex;
   justify-content: space-between;
 }

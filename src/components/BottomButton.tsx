@@ -1,4 +1,4 @@
-import React, {FC, useState} from "react";
+import React, {FC} from "react";
 import YearLine from "./YearLine";
 
 interface BottomButtonProps {
@@ -9,8 +9,9 @@ interface BottomButtonProps {
 
 const BottomButton: FC<BottomButtonProps> = (props) => {
     const {incPage, page} = props;
-
-    if (page >= 2) {
+    if (page === 5) {
+        return <div></div>
+    } else if (page >= 2) {
         return (
             <YearLine page={page} incPage={incPage}/>
         )

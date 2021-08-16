@@ -5,6 +5,8 @@ interface ImgElProps {
     img: IImg
     handleDbclick: () => void
 }
+
+
 const ImgEl: FC<ImgElProps> = (props) => {
     const {img, handleDbclick} = props
     return (
