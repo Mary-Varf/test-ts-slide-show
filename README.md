@@ -1,5 +1,5 @@
 <h1 align='center'>Test TypeScript React Slideshow</h1>
-<img align='center' src='https://media.giphy.com/media/0lFd4jI2foRD35zPZw/source.gif'>
+<img align='center' src='https://media.giphy.com/media/0lFd4jI2foRD35zPZw/source.gif' width="60%">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
