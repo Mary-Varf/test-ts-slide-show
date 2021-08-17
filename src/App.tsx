@@ -6,8 +6,7 @@ import BottomButton from './components/BottomButton';
 import PaginationBlock from './components/PaginationBlock';
 
 const App: FC = () => {
-    const [page, setPage] = useState<number>(0);
-    const [year, setYear] = useState(0);
+    const [page, setPage] = useState(0);
     const [time, setTime] = useState(0);
     const [pagination, setPagination] = useState(0);
 
@@ -52,13 +51,13 @@ const App: FC = () => {
         setPage(el)
         setPagination(el)
     }
-    window.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowRight' || e.key === 'Enter') {
-            incPage()
-        } else if (e.key === 'ArrowLeft') {
-            decPage()
-        }
-    });
+    // window.addEventListener('keydown', (e) => {
+    //     if (e.key === 'ArrowRight' || e.key === 'Enter') {
+    //         incPage()
+    //     } else if (e.key === 'ArrowLeft') {
+    //         decPage()
+    //     }
+    // });
     return (
         <BrowserRouter>
             <div className='home'>
